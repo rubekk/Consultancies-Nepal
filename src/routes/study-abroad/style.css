@@ -7,21 +7,19 @@
     display: flex;
     gap: 1rem;
 }
-
 .country-row-single {
     width: 100%;
 }
-
 .country-left{
     width: 60%;
 }
-
 .country-right{
     width:25%;
     align-self: flex-start;
     position: sticky;
     top: 1rem;
 }
+
 .study-abroad-blog-container{
     padding: 0 1.3rem;
     text-align: justify;
@@ -34,7 +32,6 @@
     margin-top: 2rem;
 }
 .study-abroad-blog-container h1, .study-abroad-blog-container h2, .study-abroad-blog-container h3, .study-abroad-blog-container h4 {
-    /* color: #2c3e50; */
     color: #000;
 }
 .study-abroad-blog-container h1{

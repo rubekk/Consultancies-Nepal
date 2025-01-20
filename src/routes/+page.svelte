@@ -28,8 +28,9 @@
 </div>
 
 <div class="top-consultancies">
-    <!-- <div class="sub-title">Top Consultancies</div> -->
-     <Badge>Top Consultancies</Badge>
+    <div class="sub-title">
+        <Badge class="mx-auto text-[1.5rem]">Top Consultancies</Badge>
+    </div>
     <div class="top-consultancies-inner">
         {#each data as indData, i}
             {#if i <= 5}
@@ -56,7 +57,9 @@
 </div>
 
 <div class="study-abroad">
-    <div class="sub-title">Study Abroad Destinations</div>
+    <div class="sub-title">
+        <Badge class="mx-auto text-[1.5rem]">Study Destinations</Badge>
+    </div>
     <div class="study-abroad-inner">
         {#each countryData as cData, i}
             {#if i <= 7}
@@ -75,7 +78,9 @@
 </div>
 
 <div class="test-guides">
-    <div class="sub-title">Test Guides</div>
+    <div class="sub-title">
+        <Badge class="mx-auto text-[1.5rem]">Test Guides</Badge>
+    </div>
     <div class="test-guides-inner">
         {#each testData as tData, i}
             {#if i <= 3}
@@ -94,7 +99,9 @@
 </div>
 
 <div class="faqs">
-    <div class="sub-title">FAQ</div>
+    <div class="sub-title">
+        <Badge class="mx-auto text-[1.5rem]">FAQs</Badge>
+    </div>
     <Accordion inactiveClass="text-gray-500 dark:text-gray-400 bg-white dark:hover:bg-gray-800">
         {#each faqData as item, i}
             <AccordionItem >

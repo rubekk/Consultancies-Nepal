@@ -5,5 +5,7 @@
 </script>
 
 <Header />
-<slot></slot>
+<div class="slot-container">
+    <slot></slot>
+</div>
  <Footer />

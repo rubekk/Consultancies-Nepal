@@ -1,8 +1,8 @@
 <script>
   import "./style.css";
   import { page } from "$app/stores";
-  import TGBreadcrumb from "../../components/TGBreadCrumb.svelte";
-  import TGRight from "../../components/TGRight.svelte";
+  import TGBreadcrumb from "../../components/TestGuidesBCrumb.svelte";
+  import TGRight from "../../components/TestGuidesRight.svelte";
 
   $: pathname = $page.url.pathname;
 </script>

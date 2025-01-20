@@ -2,11 +2,9 @@
   import { page } from "$app/stores";
   import { Breadcrumb, BreadcrumbItem } from "flowbite-svelte";
 
-  // Reactive variable to extract the last part of the pathname
   $: lastPathSegment =
     $page?.url?.pathname?.split("/").filter(Boolean).pop() || "";
 
-  // Check if the user is on the "second breadcrumb" route
   $: showLastBreadcrumb = $page?.url?.pathname !== "/study-abroad";
 </script>
 

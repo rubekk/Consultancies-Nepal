@@ -1,0 +1,137 @@
+.consultancies-breadcrumb{
+    margin: 1rem 0 ;
+    position: sticky; 
+}
+.consultancies-breadcrumb{
+    margin: 1rem 0 ;
+    position: sticky; 
+}
+.consultancies-row{
+    margin: 0 2rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.consultancies-row-single {
+    width: 100%;
+}
+.consultancies-left{
+    width: 70%;
+}
+.consultancies-right{
+    width:20%;
+    align-self: flex-start;
+    position: sticky;
+    top: 1rem;
+}
+
+.consultancies{
+    padding: 0 1.3rem;
+}
+.consultancies-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.socials{
+    margin: 1rem 0 0 .5rem;
+}
+.socials i{
+    margin-right: .75rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+.socials i:hover{
+    color: #dcdcdc;
+}
+
+/* below data nav */
+.consultancy-data{
+    /* margin: auto; */
+    padding: 2rem 0;
+    width: 800px;
+    text-align: justify;
+}
+.data-countries, .data-tests{
+    display: flex;
+    flex-wrap: wrap;
+}
+.consultancy-data .socials{
+    margin: 3rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consultancy-data .socials span{
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+.consultancy-data .socials i{
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+/* enquire modal */
+.enquire-modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.cross-modal{
+    font-size: 1.25rem;
+    color: #797979;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    cursor: pointer;
+}
+.enquire-modal-inner{
+    padding: 3.5rem 2rem 2rem 2rem;
+    width: 700px;
+    background-color: #fff;
+    border: 2px solid #dcdcdc;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.enquire-modal-inner h2{
+    margin-bottom: 1rem;	
+}
+.enquire-modal input, select, textarea{
+    margin: .5rem 0;
+    padding: 0 .5rem;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #000;
+    outline: none;
+}
+textarea{
+    padding: .5rem;
+    height: 100px;
+}
+
+/* media queries */
+@media (max-width: 800px){
+    .consultancy-data{
+        padding: 0;
+        width: 100%;
+    }
+    .consultancy-data-bottom{
+        border: none;
+    }
+}
