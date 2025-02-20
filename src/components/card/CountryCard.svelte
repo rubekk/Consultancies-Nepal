@@ -5,11 +5,13 @@
 {#if countryData}
   <div class="country-card">
     <a href={`/countries/${countryData.slug}`}>
-      <img
-        class="country-card-img"
-        src={countryData.thumbnail_image.url}
-        alt={`${countryData.thumbnail_image.alt}`}
-      />
+      <div class="img-container">
+        <img
+          class="country-card-img"
+          src={countryData.thumbnail_image.url}
+          alt={`${countryData.thumbnail_image.alt}`}
+        />
+      </div>
       <p class="country-card-txt">{`${countryData.country}`}</p>
     </a>
   </div>
@@ -18,26 +20,27 @@
 <style>
   .country-card {
     width: 300px;
-    height: 225px;
     position: relative;
     cursor: pointer;
-    box-shadow: 3px 3px 3px rgb(46 128 187 / 20%);
+  }
+  .img-container {
+    width: 100%;
+    height: 225px;
+    border-radius: 5px;
+    overflow: hidden;
   }
   .country-card-img {
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    object-fit: cover;
+  }
+  .country-card-img:hover {
+    transition: .7s all ease-in-out;
+    transform: scale(1.25);
   }
   .country-card-txt {
     padding: 0.25rem 0.5rem;
     width: max-content;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    bottom: 1rem;
-    transform: translateX(-50%);
   }
 </style>
