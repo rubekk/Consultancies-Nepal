@@ -1,0 +1,93 @@
+[
+    {
+        "name": "University of Southern California",
+        "slug": "university-of-southern-california",
+        "city": "Los Angeles",
+        "country": "United States",
+        "courses": [
+            "Business",
+            "Engineering",
+            "Arts"
+        ],
+        "average_fee": "20 lakhs - 35 lakhs",
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+    },
+    {
+        "name": "University of Melbourne",
+        "slug": "university-of-melbourne",
+        "city": "Melbourne",
+        "country": "Australia",
+        "courses": [
+            "Business",
+            "Law",
+            "Engineering"
+        ],
+        "average_fee": "18 lakhs - 30 lakhs",
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+    },
+    {
+        "name": "University of Toronto",
+        "slug": "university-of-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "courses": [
+            "Engineering",
+            "Business",
+            "Arts"
+        ],
+        "average_fee": "25 lakhs - 35 lakhs",
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+    },
+    {
+        "name": "University of California, Berkeley",
+        "slug": "university-of-california-berkeley",
+        "city": "Berkeley",
+        "country": "United States",
+        "courses": [
+            "Engineering",
+            "Science",
+            "Law"
+        ],
+        "average_fee": "22 lakhs - 33 lakhs",
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+    },
+    {
+        "name": "Australian National University",
+        "slug": "australian-national-university",
+        "city": "Canberra",
+        "country": "Australia",
+        "courses": [
+            "Political Science",
+            "Engineering",
+            "Computer Science"
+        ],
+        "average_fee": "18 lakhs - 28 lakhs",
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+    },
+    {
+        "name": "McGill University",
+        "slug": "mcgill-university",
+        "city": "Montreal",
+        "country": "Canada",
+        "courses": [
+            "Medicine",
+            "Engineering",
+            "Law"
+        ],
+        "average_fee": "20 lakhs - 35 lakhs",
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+    },
+    {
+        "name": "University of New South Wales",
+        "slug": "university-of-new-south-wales",
+        "city": "Sydney",
+        "country": "Australia",
+        "courses": [
+            "Engineering",
+            "Computer Science",
+            "Business"
+        ],
+        "average_fee": "19 lakhs - 32 lakhs",
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+    }
+]
