@@ -1,5 +1,7 @@
 <script>
   import "$lib/css/common-category.css";
+  import "$lib/css/university.css";
+  import "$lib/css/filter.css";
   import { page } from "$app/stores";
   import CommonBreadCrumb from "../../components/breadcrumb/CommonBreadCrumb.svelte";
   import UniversitiesFilter from "../../components/filter/UniversitiesFilter.svelte";
@@ -35,27 +37,3 @@
     </div>
   {/if}
 </div>
-
-<style>
-  .university-home {
-    margin-bottom: 2rem;
-  }
-
-  .university-home {
-    display: flex;
-    gap: 0.5rem;
-  }
-  
-  .university-left-sidebar {
-    width: 30%;
-    background-color: #fafafa;
-    border: 1px solid #f3f3f3;
-  }
-  
-  .university {
-    padding: 1.5rem 1.3rem;
-    width: 70%;
-    background-color: #fafafa;
-    border: 1px solid #f3f3f3;
-  }
-</style>

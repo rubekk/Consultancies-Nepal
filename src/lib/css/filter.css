@@ -1,0 +1,20 @@
+.filter-box {
+    width: 100%;
+}
+
+.filter-box h5 {
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.filter-options {
+    padding: .5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+}
+
+.filter-values {
+    margin: .5rem;
+    font-size: 1.1rem;
+}
