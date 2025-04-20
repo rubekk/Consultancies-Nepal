@@ -1,6 +1,8 @@
 <script>
     import { Checkbox, Heading } from "flowbite-svelte";
 
+    export let filterFunction;
+
     const fields = [
         "Information Technology",
         "Accounting",
@@ -12,6 +14,7 @@
         "Philosophy",
         "Cyber Security",
         "Artificial Intelligence",
+        "Entrepreneurship"
     ];
 </script>
 
@@ -19,7 +22,7 @@
     <Heading tag="h5">Specialization</Heading>
     <div class="filter-options">
         {#each fields as field}
-            <Checkbox class="filter-values">{field}</Checkbox>
+            <Checkbox on:click={e => filterFunction(e.target.checked, field)} class="filter-values">{field}</Checkbox>
         {/each}
     </div>
 </div>
