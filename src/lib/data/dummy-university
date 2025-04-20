@@ -1,0 +1,129 @@
+[
+    {
+        "name": "University of Southern California",
+        "slug": "university-of-southern-california",
+        "city": "Los Angeles",
+        "country": "United States",
+        "acceptedExams": ["IELTS", "SAT", "GRE"],
+        "degrees": ["Business", "Engineering", "Arts"],
+        "average_fee": {
+            "min": 20,
+            "max": 35
+        },
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1",
+        "meta_title": "University of Southern California - Study Business, Engineering & Arts in Los Angeles",
+        "meta_description": "Apply to University of Southern California for courses in Business, Engineering, and Arts in Los Angeles. Fee range: ₹20 Lakhs - ₹35 Lakhs.",
+        "meta_keywords": "University of Southern California, Business, Engineering, Arts, Los Angeles, study abroad, USA universities",
+        "schema_data": {
+            "@context": "http://schema.org",
+            "@type": "CollegeOrUniversity",
+            "name": "University of Southern California",
+            "url": "https://www.example.com/university-of-southern-california",
+            "logo": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Los Angeles",
+                "addressCountry": "United States"
+            },
+            "department": {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Southern California",
+                "courseMode": "Full-time",
+                "courseMode": "Part-time"
+            },
+            "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "2000000",
+                "eligibleRegion": {
+                    "@type": "Place",
+                    "name": "United States"
+                }
+            }
+        }
+    },
+    {
+        "name": "University of Melbourne",
+        "slug": "university-of-melbourne",
+        "city": "Melbourne",
+        "country": "Australia",
+        "acceptedExams": ["IELTS", "SAT"],
+        "degrees": ["Business", "Law", "Engineering"],
+        "average_fee": {
+            "min": 18,
+            "max": 30
+        },
+        "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1",
+        "meta_title": "University of Melbourne - Study Business, Law & Engineering in Australia",
+        "meta_description": "Apply to University of Melbourne for courses in Business, Law, and Engineering in Melbourne, Australia. Fee range: ₹18 Lakhs - ₹30 Lakhs.",
+        "meta_keywords": "University of Melbourne, Business, Law, Engineering, Australia, study abroad",
+        "schema_data": {
+            "@context": "http://schema.org",
+            "@type": "CollegeOrUniversity",
+            "name": "University of Melbourne",
+            "url": "https://www.example.com/university-of-melbourne",
+            "logo": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Melbourne",
+                "addressCountry": "Australia"
+            },
+            "department": {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Melbourne",
+                "courseMode": "Full-time"
+            },
+            "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "1800000",
+                "eligibleRegion": {
+                    "@type": "Place",
+                    "name": "Australia"
+                }
+            }
+        }
+    }
+]
+
+
+{
+    "name": "University of Southern California (USC) – Top-Ranked University in Los Angeles",
+    "slug": "university-of-southern-california-usc",
+    "city": "Los Angeles",
+    "country": "United States",
+    "description": "The University of Southern California (USC) is a prestigious private research university in Los Angeles, United States, known for its excellence in Business, Engineering, and Arts. With a diverse student body and world-class faculty, USC offers globally recognized degree programs, cutting-edge research opportunities, and strong industry connections.",
+    "courses": [
+        {
+            "name": "Business Administration",
+            "degree": "Bachelor's, Master's, MBA",
+            "specializations": ["Marketing", "Finance", "Entrepreneurship", "Supply Chain Management"],
+            "duration": ["3 years", "4 years", "2 years"],
+            "fees": "20 lakhs - 35 lakhs",
+            "acceptedExams": ["GMAT", "GRE", "SAT", "ACT"],
+            "scholarships": ["Merit-Based Scholarships", "Need-Based Grants", "International Student Scholarships"],
+            "time": ["Full-time", "Part-time"]
+        },
+        {
+            "name": "Engineering",
+            "degree": "Bachelor's, Master's, PhD",
+            "specializations": ["Computer Science", "Mechanical", "Civil", "Electrical"],
+            "duration": ["4 years", "2 years", "5 years"],
+            "fees": "20 lakhs - 35 lakhs",
+            "acceptedExams": ["GRE", "SAT", "ACT"],
+            "scholarships": ["STEM Scholarships", "International Research Grants"],
+            "time": ["Full-time"]
+        },
+        {
+            "name": "Arts",
+            "degree": "Bachelor's, Master's",
+            "specializations": ["Fine Arts", "Performing Arts", "Visual Arts", "Media Studies"],
+            "duration": ["3 years", "4 years"],
+            "fees": "20 lakhs - 35 lakhs",
+            "acceptedExams": ["SAT", "ACT"],
+            "scholarships": ["Creative Arts Scholarships"],
+            "time": ["Full-time", "Part-time"]
+        }
+    ],
+    "image_url": "https://fox59.com/wp-content/uploads/sites/21/2023/07/64c03ff465c712.92639353.jpeg?w=2560&h=1440&crop=1"
+}
